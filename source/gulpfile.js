@@ -21,4 +21,4 @@ gulp.task('watch', function(){
 
 });
 
-gulp.task('default', ['sass', 'cp']);
+gulp.task('default', ['sass', 'cp', 'watch']);
